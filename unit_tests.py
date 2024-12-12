@@ -3,7 +3,7 @@ from main import rectangle
 
 class TestRectangle(unittest.TestCase):
     def test_correct_values(self):
-        self.assertEqual(rectangle(5, 3), (16, 15))
+        self.assertEqual(rectangle(5, 3), (1678, 15))
         self.assertEqual(rectangle(7, 2), (18, 14))
     def test_negative_or_zero(self):
         with self.assertRaises(ValueError):
